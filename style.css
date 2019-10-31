@@ -1,0 +1,65 @@
+/*Website Styles*/
+*{
+  font-size: 100%
+  margin:0;
+  box-sizing: border-box;
+  /* border: ; */
+}
+body {
+  background-color: 00;
+  background-image: url(images/fallingcoins.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: DimGray;
+  font-family: 'Open Sans';
+  font-size:14px;
+  height: 175vh;
+h1 {
+  color: SlateGray;
+  font-size: 36px;
+  text-align: center;
+}
+p {
+  line-height: 2;
+  text-align: left;
+  margin: px 0;
+}
+header p {
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: underline;
+}
+header,
+section,
+footer {
+  padding: 30px;
+}
+header {
+  border-bottom: 5px ;
+}
+section {
+  border: 00;
+  background-color: 00;
+}
+img {
+  height: 300px;
+}
+.box {
+  background-image: url(file.jpg);
+}
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.banner {
+  height:2000 px;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
