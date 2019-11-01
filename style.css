@@ -6,60 +6,83 @@
   /* border: ; */
 }
 body {
-  background-color: 00;
   background-image: url(images/fallingcoins.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans',Sans-serif;
   font-size:14px;
   height: 175vh;
+}
 h1 {
   color: white;
   font-size: 36px;
-  text-align: center;
+  text-align: left;
 }
+
 p {
   line-height: 2;
   text-align: left;
-  margin: px 0;
+  width: 200px;
+  margin-left:auto;
+  float: left;
 }
+
 header p {
   text-align: center;
 }
+
 a {
   color: black;
   text-decoration: underline;
 }
+
 header,
 section,
 footer {
   padding: 30px;
 }
+
 header {
   border-bottom: 5px ;
 }
+
 section {
   border: 00;
   background-color: 00;
 }
+
 img {
-  height: 300px;
+  margin-left:auto;
 }
+
 .box {
   background-image: url(file.jpg);
 }
+
 .title {
   font-size: 48px;
   text-decoration: underline;
 }
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .banner {
   height:2000 px;
   background-image: url(images/banner.jpg);
   background-size: cover;
   background-position: center;
+}
+
+aside {
+  float: right;
+  padding-top: 500px;
+  width: 300px;
+}
+
+footer {
+  clear: both;
 }
